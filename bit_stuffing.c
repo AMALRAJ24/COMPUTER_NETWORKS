@@ -7,7 +7,7 @@ int main()
  printf("Enter Data Bits: ");
  scanf("%s",databits);
  printf("\nData Bits After Bit stuffing: ");
-  for(i=0; i<strlen(databits); i++)
+ for(i=0; i<strlen(databits); i++)
  {
     if(databits[i]=='1')
         count++;
